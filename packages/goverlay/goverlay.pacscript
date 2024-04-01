@@ -9,6 +9,7 @@ makedepends=('git' 'libglu1-mesa-dev' 'qt6-base-dev')
 case "${DISTRO}" in
 debian:testing|debian:trixie|debian:sid)
   pacdeps=('qt6pas' 'mangohud')
+  makedepends+=("lazarus" "fpc" "fpc-source")
   ;;
 *)
   pacdeps=('mangohud' 'fpc-laz-deb' 'fpc-src-deb' 'lazarus-project-deb' 'qt6pas')
