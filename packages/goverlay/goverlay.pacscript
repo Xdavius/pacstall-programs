@@ -6,13 +6,13 @@ pkgver="1.1.1"
 pkgdesc="A GUI to help manage Vulkan/OpenGL overlays"
 arch=("amd64")
 makedepends=('git' 'libglu1-mesa-dev' 'qt6-base-dev')
+pacdeps=('qt6pas' 'mangohud')
 case "${DISTRO}" in
 debian:testing|debian:trixie|debian:sid)
-  pacdeps=('qt6pas' 'mangohud')
   makedepends+=("lazarus" "fpc" "fpc-source")
   ;;
 *)
-  pacdeps=('mangohud' 'fpc-laz-deb' 'fpc-src-deb' 'lazarus-project-deb' 'qt6pas')
+  pacdeps+=('fpc-laz-deb' 'fpc-src-deb' 'lazarus-project-deb')
   ;;
 esac
 url="https://github.com/benjamimgois/goverlay/archive/refs/tags/${pkgver}.tar.gz"
