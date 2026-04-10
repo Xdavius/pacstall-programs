@@ -3,7 +3,6 @@ _pkgsubn='aic8800d80'
 _dkmsname='aic8800'
 conflicts=('aic8800d80' 'aic8800')
 pkgver='1.0.0'
-pkgrel='6'
 pkgdesc='Kernel modules for AIC8800D80 USB dongle WIFI AX900 with BT5.4'
 arch=('any')
 makedepends=("git")

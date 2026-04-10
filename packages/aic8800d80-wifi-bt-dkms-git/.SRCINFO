@@ -1,6 +1,5 @@
 pkgbase = aic8800d80-wifi-bt-dkms-git
 	pkgver = 1.0.0
-	pkgrel = 6
 	pkgdesc = Kernel modules for AIC8800D80 USB dongle WIFI AX900 with BT5.4
 	url = https://github.com/shenmintao/aic8800d80
 	arch = any
