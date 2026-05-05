@@ -1,5 +1,5 @@
 pkgname="discord"
-pkgver="0.0.92"
+pkgver="0.0.125"
 maintainer=("Elsie19 <elsie19@pm.me>")
 source=("@${pkgname}~${pkgver}::https://dl.discordapp.net/apps/linux/${pkgver}/${pkgname}-${pkgver}.tar.gz")
 url='https://discord.com/'
@@ -8,7 +8,7 @@ optdepends=(
   "fonts-noto-color-emoji: emoji support"
 )
 pkgdesc="Chat for Communities and Friends"
-sha256sums=("6c5ecfe382381c91f53e7f6d0fe6c5bd3707c13c6e918e987213ff0e99d8e2eb")
+sha256sums=("032294ab61898cc6a6dabee842375006106c4d86e156d9d469378b3f87a64481")
 arch=('amd64')
 repology=("project: ${pkgname}")
 

@@ -1,10 +1,10 @@
 pkgname="nordvpn-deb"
 gives="nordvpn"
 repology=("project: ${gives}" "visiblename: ${gives}-bin")
-pkgver="3.20.2"
+pkgver="4.4.0"
 source=("https://repo.nordvpn.com/deb/${gives}/debian/pool/main/n/${gives}/${gives}_${pkgver}_${CARCH}.deb")
 pkgdesc="NordVPN's CLI tool"
-sha256sums_amd64=("d9e2d5af4690a4c848302ae4c8845c09a6d7735f7b189677d5597904d0fb0e2f")
-sha256sums_arm64=("85773be5cf911b778d9a03c2efd61a56ce43c5ea66cc8e3de6fb9466073964f6")
+sha256sums_amd64=("ade3c11157baa38f487f9758bc8516dfad44ee716a9e0cddf9792239e7a163bc")
+sha256sums_arm64=("ca5d8eeb2785156be4b1bdb19dee8c3fa5844b9afb5d238ac95c73bc3efaf5ef")
 arch=('amd64' 'arm64')
 maintainer=("Oren Klopfer <oren@taumoda.com>")

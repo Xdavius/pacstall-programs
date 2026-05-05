@@ -1,0 +1,16 @@
+pkgbase = erlfmt
+	pkgver = 1.8.0
+	pkgdesc = Automated code formatter for Erlang
+	url = https://github.com/WhatsApp/erlfmt
+	arch = any
+	depends = erlang
+	makedepends = git
+	makedepends = rebar3
+	conflicts = erlfmt-git
+	license = Apache-2.0
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	repology = project: erlfmt
+	source = https://github.com/WhatsApp/erlfmt/archive/refs/tags/v1.8.0.tar.gz
+	sha256sums = c7205f3a28dac589c623f21546d63d5b04cc669545d03485cb88552de0117f43
+
+pkgname = erlfmt

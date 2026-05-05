@@ -1,9 +1,9 @@
 pkgname="watchexec-bin"
 repology=("project: watchexec")
-pkgver="1.25.1"
+pkgver="2.4.1"
 arch=('amd64' 'arm64')
-sha256sums_amd64=("16c92ce0b13f4b0082b8a8362ac099fa5ae417780255990302e4865c2a8cd1bc")
-sha256sums_arm64=("a8ccd6770d0c0cceace33e5c668f236aaa5292bf77711a6afaefceb0bf8b87c7")
+sha256sums_amd64=("50636d6d723a1f78eb6de05723362883db53bbf084f3a6e7773c170f28ee6227")
+sha256sums_arm64=("64088ecdc4adc20e3babd2bf96f1385196bd7baa494c6e1018d3714ba02bf70d")
 source_amd64=("@${pkgname}~${pkgver}::https://github.com/watchexec/watchexec/releases/download/v${pkgver}/watchexec-${pkgver}-x86_64-unknown-linux-gnu.tar.xz")
 source_arm64=("@${pkgname}~${pkgver}::https://github.com/watchexec/watchexec/releases/download/v${pkgver}/watchexec-${pkgver}-aarch64-unknown-linux-gnu.tar.xz")
 pkgdesc="Executes commands in response to file modifications"

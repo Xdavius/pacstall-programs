@@ -1,11 +1,11 @@
 pkgname="ferdium-deb"
 gives="ferdium"
 repology=("project: ferdium")
-pkgver="7.0.1"
+pkgver="7.1.2"
 pkgdesc="Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application"
 arch=("amd64" "arm64")
 source_amd64=("https://github.com/ferdium/ferdium-app/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-amd64.deb")
-sha256sums_amd64=("7b93bc72f42abf2987422bbb918d4084a7e854eb032d82bc8435fe3ca8193c5b")
+sha256sums_amd64=("38340a16305adab889636e9a3da01f2f3b82c8b624079a184b1204dbc9cc9b06")
 source_arm64=("https://github.com/ferdium/ferdium-app/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-arm64.deb")
-sha256sums_arm64=("52c917146c4014eac02bc6c85d11d2c0dd06d656a41b2b911974d861114a1dac")
-maintainer=("Zahrun <Zahrun@github.com>")
+sha256sums_arm64=("0981e84f0e8953253ade24ddf6d01b7d65676f8f16719806b63b61aa79400fc2")
+maintainer=("Zahrun <zahrunAtmurenaDotio>")

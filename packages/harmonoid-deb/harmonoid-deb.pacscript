@@ -1,10 +1,10 @@
 pkgname="harmonoid-deb"
 gives="harmonoid"
-pkgver="0.3.8"
+pkgver="0.3.22"
 source=("https://github.com/alexmercerind2/harmonoid-releases/releases/download/v${pkgver}/harmonoid-linux-x86_64.deb")
 url='https://harmonoid.com/'
 pkgdesc="Plays & manages your music library. Looks beautiful & juicy. Playlists, visuals, synced lyrics, pitch shift, volume boost & more"
 repology=("project: harmonoid")
-sha256sums=("e0078741f2df5a7146027c88c61547e7c920a0a43bfc21518e1d77f5dd7ec927")
+sha256sums=("7af13cf657b44b4f628c3ef47d376fc82250426f83da05d774e4d73aa01ad34e")
 arch=('amd64')
 maintainer=("Elsie19 <elsie19@pm.me>")

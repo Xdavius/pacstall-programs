@@ -1,5 +1,5 @@
 pkgbase = soar
-	pkgver = 0.5.9
+	pkgver = 0.11.0
 	pkgdesc = Fast, modern package manager for Static Binaries and Portable Formats
 	url = https://soar.qaidvoid.dev/
 	arch = any
@@ -7,7 +7,7 @@ pkgbase = soar
 	license = MIT
 	maintainer = Elsie19 <hwengerstickel@pm.me>
 	repology = project: soar
-	source = https://github.com/pkgforge/soar/archive/refs/tags/v0.5.9.tar.gz
-	sha256sums = 70be79806608cfb8482bc9d81e2238117cd31a60734939907031c25f76ed266b
+	source = https://github.com/pkgforge/soar/archive/refs/tags/v0.11.0.tar.gz
+	sha256sums = ad5d8b11d53b0be18b7dd773febdaa1cdf83f997c5886ec6c22ad24e04c44692
 
 pkgname = soar

@@ -1,8 +1,8 @@
 pkgname="p3x-onenote-app"
 _name="P3X-OneNote"
 gives="p3x-onenote"
-pkgver="2024.10.117"
-url="https://www.corifeus.com/onenote"
+pkgver="2025.10.111"
+url='https://www.corifeus.com/onenote'
 pkgdesc="Independent browser window for OneNote online"
 depends=(
   "perl-base"
@@ -14,7 +14,7 @@ source=(
   "p3x-onenote.desktop"
   "onenote.svg"
 )
-sha256sums="f95c4dc529f86b00a15997ec2024a2ca1a139048d2cf816dfd6ade721d5d635e"
+sha256sums="9606635550563e5a2a3165f4a2bc8d07497182624206a0bba69d008de50c8d03"
 arch=("amd64")
 maintainer=("harrietobrien <harrietobrien@protonmail.com>")
 

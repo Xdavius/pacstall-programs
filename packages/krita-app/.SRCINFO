@@ -1,12 +1,12 @@
 pkgbase = krita-app
 	gives = krita
-	pkgver = 5.2.9
+	pkgver = 5.2.15
 	pkgdesc = Professional free and open source painting program from KDE
 	url = https://krita.org
 	arch = amd64
 	maintainer = harrietobrien <harrietobrien@protonmail.com>
 	maintainer = James Ed Randson <jimedrand@disroot.org>
-	source = https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage
-	sha256sums = e81dedfdaf52d69daf280856265dcbca81b1c3cfab615a90147a9a63c132b308
+	source = https://download.kde.org/stable/krita/5.2.15/krita-5.2.15-x86_64.AppImage
+	sha256sums = 9064dbf926c90ce6cfa1a20ad94648db03e72676d9d1ad60b32f61f4c40f28ea
 
 pkgname = krita-app

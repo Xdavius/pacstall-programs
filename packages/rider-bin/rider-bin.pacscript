@@ -1,13 +1,13 @@
 pkgname="rider-bin"
-pkgver="2024.3.3"
+pkgver="2025.3.3"
 gives="rider"
 arch=("amd64" "arm64")
 maintainer=("James Ed Randson <jimedrand@disroot.org>")
 pkgdesc="The world's most loved .NET and game dev IDE"
 source_amd64=("https://download-cdn.jetbrains.com/${gives}/JetBrains.Rider-${pkgver}.tar.gz")
-sha256sums_amd64=("3185826c0d85c06bf18c5ece3f5f9698acef006932b7a92b6cb190fd4d8e2807")
+sha256sums_amd64=("b0117f5c0e76a12143d5d126ce1be8edcc1fe441938b49b1d71dcf7286d0540b")
 source_arm64=("https://download-cdn.jetbrains.com/${gives}/JetBrains.Rider-${pkgver}-aarch64.tar.gz")
-sha256sums_arm64=("8ca14eeae6a9164da955f9e292dda788bda53a031c24ef6c2fab505e3e2f175b")
+sha256sums_arm64=("40a073bac6514ceabed8fb5ef9212080dfe87692681ca688c011a92def63aa65")
 repology=("project: rider")
 
 package() {

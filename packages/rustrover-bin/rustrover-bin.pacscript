@@ -1,13 +1,13 @@
 pkgname="rustrover-bin"
-pkgver="2024.3.4"
+pkgver="2025.3.4"
 gives="rustrover"
 arch=("amd64" "arm64")
 maintainer=("James Ed Randson <jimedrand@disroot.org>")
 pkgdesc="A powerhouse IDE for Rust developers"
 source_amd64=("https://download.jetbrains.com/${gives}/RustRover-${pkgver}.tar.gz")
-sha256sums_amd64=("1e7347b37a26715f5afdf101208342e6088d0d8421c9ee1661f48efb38cac8b4")
+sha256sums_amd64=("151c958a386c9b624ec0f4fdbb80cd38f64c6b2227d048d0772d5359176660bb")
 source_arm64=("https://download.jetbrains.com/${gives}/RustRover-${pkgver}-aarch64.tar.gz")
-sha256sums_arm64=("a1b3626907930d32f256d14598e1013ce6999fae28a61f71013be2a7e7c52a1d")
+sha256sums_arm64=("30d9b27fac13cb58eca2cdca201baeec866a7b62052442f9171a96ba1e568679")
 repology=("project: rustrover")
 
 package() {

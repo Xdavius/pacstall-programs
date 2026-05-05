@@ -1,9 +1,11 @@
 pkgname="waf"
 arch=("any")
-pkgver="2.0.24"
+pkgver="2.1.9"
 source=("@${pkgname}~${pkgver}::https://gitlab.com/ita1024/waf/-/archive/waf-${pkgver}/waf-waf-${pkgver}.zip")
 pkgdesc="Waf is a Python-based framework for configuring, compiling and installing applications."
-sha256sums=("87a468f9bf1d8a55151dda6290e230bcdad199df70217a223eb96ac79b94f121")
+makedepends=("python3")
+depends=("python3")
+sha256sums=("47c555fb57ea72d0a2e31f13e74c2588d9686b7c4c63ce0dbbf7fb894390b720")
 maintainer=("echometerain <echometer@disroot.org>")
 
 build() {
@@ -14,8 +16,4 @@ build() {
 package() {
   cd "${pkgname}~${pkgver}"
   install -Dm755 "waf" "${pkgdir}/usr/bin/waf"
-}
-
-post_install() {
-  sudo waf 2> "/dev/null"
 }

@@ -1,9 +1,9 @@
 pkgname="zettlr-deb"
 gives="zettlr"
-pkgver="3.0.3"
+pkgver="4.2.0"
 pkgdesc="Markdown editor for the 21st century"
 source=("https://github.com/Zettlr/Zettlr/releases/download/v${pkgver}/Zettlr-${pkgver}-amd64.deb")
-sha256sums=("5ed31951ac48e665c16de25afb85af0a2c3a099f5649bc6b64929a7bf5bcb672")
+sha256sums=("ceb4100e99356ff6095ccf763b44290f94e097a845e1f8b6cf1d7220fbf51945")
 repology=("project: zettlr")
 arch=('amd64')
 maintainer=("smokeythemonkey <smokeythemonkey@posteo.net>")

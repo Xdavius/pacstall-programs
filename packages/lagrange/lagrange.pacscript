@@ -1,11 +1,11 @@
 pkgname="lagrange"
 arch=("any")
-pkgver="1.3.4"
-license="BSD-2"
-source=("@${pkgname}~${pkgver}::https://git.skyjake.fi/gemini/lagrange/releases/download/v1.3.4/lagrange-1.3.4.tar.gz")
-depends=("git" "cmake" "libsdl2-dev" "libssl-dev" "libpcre3-dev" "zlib1g-dev" "libunistring-dev" "libmpg123-dev")
+pkgver="1.19.4"
+license=("BSD-2-Clause")
+source=("@${pkgname}~${pkgver}::https://git.skyjake.fi/gemini/lagrange/releases/download/v1.19.4/lagrange-1.19.4.tar.gz")
+makedepends=("git" "cmake" "libsdl2-dev" "libssl-dev" "libpcre3-dev | libpcre2-dev" "zlib1g-dev" "libunistring-dev" "libmpg123-dev" "zip" "libharfbuzz-dev" "libfribidi-dev")
 pkgdesc="A Beautiful Gemini Client"
-sha256sums=("0602bf65d79a1495818ab64717951d1c99057ed20e8c7bb621c8d5b693420b81")
+sha256sums=("a51e7519f0dfa2cfc2918d6b498a6aca6a966702ae0f8d2c94f02f4287b2ffd7")
 
 prepare() {
   cd "${pkgname}~${pkgver}"
@@ -14,20 +14,10 @@ prepare() {
 
 build() {
   cd "${pkgname}~${pkgver}"
-  cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="${pkgdir}/usr" -DENABLE_123=ON
+  cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="/usr" -DENABLE_123=ON
 }
 
 package() {
   cd "${pkgname}~${pkgver}"
-  cmake --build . --target install -- -j "${NCPU}"
-}
-
-post_install() {
-  sudo glib-compile-schemas /usr/share/glib-2.0/schemas
-  sudo update-desktop-database -q /usr/share/applications
-  sudo gtk-update-icon-cache -qtf /usr/share/icons/hicolor
-}
-
-post_remove() {
-  sudo update-desktop-database -q /usr/share/applications
+  cmake --build . --target install -- -j"${NCPU}" DESTDIR="${pkgdir}"
 }

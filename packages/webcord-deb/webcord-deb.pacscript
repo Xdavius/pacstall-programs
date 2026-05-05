@@ -1,12 +1,12 @@
 pkgname="webcord-deb"
 gives="webcord"
-pkgver="4.10.5"
+pkgver="4.12.1"
 replaces=("${gives}")
 source_amd64=("https://github.com/SpacingBat3/WebCord/releases/download/v${pkgver}/webcord_${pkgver}_amd64.deb")
 source_arm64=("https://github.com/SpacingBat3/WebCord/releases/download/v${pkgver}/webcord_${pkgver}_arm64.deb")
 repology=("project: webcord")
 pkgdesc="A Discord and Fosscord client implemented directly without Discord API."
-sha256sums_amd64=("3467293ff1068e1eb6fb1eebf8e344bd4566eeafeb630b590c493097eff57eca")
-sha256sums_arm64=("e522f2d555dd87f94cfe1a421f76d9a76b9f57de28cafce61f8f5055f25a3897")
+sha256sums_amd64=("dd3b02a2bce56a9a65675621153ec402c358488588eff953a6b5bc151c4f9545")
+sha256sums_arm64=("9f5d56bacbba605e2ef5eedacdec809365b099978778da06224961dfc47b37d4")
 arch=('amd64' 'arm64')
 maintainer=("Oren Klopfer <oren@taumoda.com>")

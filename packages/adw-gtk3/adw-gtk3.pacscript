@@ -1,10 +1,10 @@
 pkgname="adw-gtk3"
 arch=('any')
-pkgver="5.6"
+pkgver="6.5"
 pkgdesc="An unofficial GTK3 port of libadwaita."
-repology=("project: adw-gtk3" "repo: aur")
+repology=("project: adw-gtk3")
 source=("@${pkgname}-${pkgver}::https://github.com/lassekongo83/adw-gtk3/releases/download/v${pkgver}/${pkgname}v${pkgver}.tar.xz")
-sha256sums=("4ad286655136384f26bce80360a950473cf62532bc2650e85ce4f27776dbafa4")
+sha256sums=("a81780fadfc432be0fc3d89c4ebb41aa28e4f032d42c36f9789c57dd10cfa41c")
 maintainer=("Herisson <spaceguybox@outlook.com>" "James Ed Randson <jimedrand@disroot.org>")
 gives="${pkgname}"
 breaks=("${pkgname}" "${pkgname}-git")

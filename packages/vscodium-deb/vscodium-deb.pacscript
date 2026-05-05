@@ -1,12 +1,12 @@
 pkgname="vscodium-deb"
 gives="codium"
 breaks=("${gives}")
-pkgver="1.99.32846"
+pkgver="1.109.51242"
 arch=("arm64" "amd64")
 repology=("project: vscodium")
 maintainer=("Oren Klopfer <oren@taumoda.com>" "James Ed Randson <jimedrand@disroot.org>")
 pkgdesc="Binary releases of VS Code without MS branding/telemetry/licensing"
 source_arm64=("https://github.com/VSCodium/vscodium/releases/download/${pkgver}/${gives}_${pkgver}_arm64.deb")
 source_amd64=("https://github.com/VSCodium/vscodium/releases/download/${pkgver}/${gives}_${pkgver}_amd64.deb")
-sha256sums_arm64=("a0d134be31b9d13fa8d0eacd2b41b12068444ea2de6807606a10518ee14cee2c")
-sha256sums_amd64=("dd6b6b81f24bddc52de2ffc32ba6a96bd10aeeca5992f3fbe8295f08c8e6d3cd")
+sha256sums_arm64=("4558a824329763d5ad8871652016b9f29719449855fa4ea4e673c688856d9939")
+sha256sums_amd64=("1f4e89b0a223da2c28cd19fd95da33fd7af6a466fe12934e812c28b6cd9495ee")
